@@ -85,8 +85,26 @@ Gebze, Kocaeli · 11.2016 – 02.2019
 
 ## Projeler
 
-- **Mobil uygulamalar (Flutter):** Mağazada yayınlanmak üzere geliştirilen uygulamalar; bildirim, reklam entegrasyonu, uygulama içi satın alma.
-- **Oyun (Unity, C#):** Kişisel oyun projesi.
+Flutter ve Unity ile geliştirip Google Play'de yayınladığım uygulama ve oyunlar; bildirim, reklam entegrasyonu, uygulama içi satın alma.
+Tümü: https://ustunsoft.com/tr/apps/
+
+İndirme sayıları Google Play'deki alt sınırlardır (yalnızca artar). Puanlar değişebildiği için siteye konmaz.
+
+- **Tabu Mabu** — Oyun · Unity, C# · 10.000+ indirme
+  Kelimeleri anlatmanın en eğlenceli yolu.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.tabumabu
+- **Peckaroo: Kuş Macerası** — Oyun · Flutter · 1.000+ indirme
+  Martı Reis'le simidi kap, esnafa şans getir, Marmara'yı uçarak gez!
+  https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo
+- **Score Master** — Uygulama · Flutter · 1.000+ indirme
+  Kağıt kalem aramaya son! Oyun skorlarınızı kolayca takip edin ve paylaşın.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster
+- **Kod Tara: QR ve Barkod Okuyucu** — Uygulama · Flutter · 500+ indirme
+  QR kod ve barkod okuyucu. Hızlı tara, QR kod oluştur. İnternetsiz çalışır.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.scancode
+- **Okeyro: Okey Roguelike** — Oyun · Flutter · 100+ indirme
+  Okey taşlarıyla per aç, yancılarla puanını katla, sekiz masayı tek başına geç!
+  https://play.google.com/store/apps/details?id=com.ustunsoft.okeyro
 
 ## Eğitim
 

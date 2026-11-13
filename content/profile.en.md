@@ -85,8 +85,26 @@ Istanbul · 01/2015 – 10/2016
 
 ## Projects
 
-- **Mobile apps (Flutter):** apps built for store release, with notifications, ad integration and in-app purchases.
-- **Game (Unity, C#):** personal game project.
+Apps and games I built with Flutter and Unity and published on Google Play, with notifications, ad integration and in-app purchases.
+All: https://ustunsoft.com/en/apps/
+
+Download counts are Google Play lower bounds (they only grow). Ratings change, so they are not shown on the site.
+
+- **Tabu Mabu** — Game · Unity, C# · 10,000+ downloads
+  The most fun way to describe words.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.tabumabu
+- **Peckaroo: Bird Adventure** — Game · Flutter · 1,000+ downloads
+  Fly with Reis the gull: snatch simit, bring luck and tour Marmara!
+  https://play.google.com/store/apps/details?id=com.ustunsoft.peckaroo
+- **Score Master** — App · Flutter · 1,000+ downloads
+  Ditch the pen and paper! Easily track and share your game scores.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.scoremaster
+- **Scan Code: QR & Barcode Reader** — App · Flutter · 500+ downloads
+  Fast QR code scanner & barcode reader. Create QR codes. Works offline.
+  https://play.google.com/store/apps/details?id=com.ustunsoft.scancode
+- **Okeyro: Okey Roguelike** — Game · Flutter · 100+ downloads
+  Play hands with okey tiles, stack combos with kibitzers, clear all eight tables!
+  https://play.google.com/store/apps/details?id=com.ustunsoft.okeyro
 
 ## Education
 
