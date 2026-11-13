@@ -58,12 +58,13 @@ Uzmanlık alanları:
 - Kredilerin KKB'ye bildirimi için REST entegrasyonu ve SOAP servisleri
 
 ### Yazılım Geliştirme Uzmanı — eLogo
-İstanbul · 02.2019 – 07.2019
+Gebze, Kocaeli · 02.2019 – 07.2019
 - e-Faturaları GİB'e ileten ve UBL doğrulaması yapan SOAP servisleri
 - Fatura takibi için ASP.NET MVC portalı
+- ASP.NET MVC, DevExpress ve Entity Framework ile İSG (iş sağlığı ve güvenliği) uygulaması
 
 ### Yazılım Geliştirme Uzmanı — Logo Yazılım
-İstanbul · 11.2016 – 02.2019
+Gebze, Kocaeli · 11.2016 – 02.2019
 - ASP.NET / ASP.NET MVC CRM altyapı ekibi, Scrum
 - SOLID ve design pattern'lere uygun SMS entegrasyonu
 - MVC projesine NPoco micro ORM entegrasyonu

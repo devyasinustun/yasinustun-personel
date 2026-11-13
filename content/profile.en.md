@@ -58,12 +58,13 @@ Istanbul · 09/2019 – 10/2020
 - REST integration for reporting loans to KKB (Credit Bureau of Türkiye) and SOAP services
 
 ### Software Developer — eLogo
-Istanbul · 02/2019 – 07/2019
+Gebze, Kocaeli · 02/2019 – 07/2019
 - SOAP services sending e-invoices to the Revenue Administration (GİB) with UBL validation
 - ASP.NET MVC portal for customers to track invoices
+- Occupational health and safety (OHS) application with ASP.NET MVC, DevExpress and Entity Framework
 
 ### Software Developer — Logo Software
-Istanbul · 11/2016 – 02/2019
+Gebze, Kocaeli · 11/2016 – 02/2019
 - CRM infrastructure team (ASP.NET / ASP.NET MVC), Scrum
 - SMS integration designed with SOLID principles and design patterns
 - Introduced the NPoco micro ORM into an MVC project
