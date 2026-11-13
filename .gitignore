@@ -7,6 +7,8 @@ Thumbs.db
 # Yayın paketi (scripts\paketle.ps1 üretir)
 _yayin/
 
-# CV PDF'i telefon numarası içeriyor ve repo public: git'e girmesin.
+# TR CV PDF'i telefon numarası içeriyor ve repo public: git'e girmesin.
 # Telefonsuz sürümü hazır olunca bu satırı silip PDF'i commit edebilirsin.
 assets/cv/*.pdf
+# EN CV telefonsuz üretiliyor (content/cv/ kaynağından), repoda kalabilir.
+!assets/cv/Yasin_Ustun_CV_EN.pdf

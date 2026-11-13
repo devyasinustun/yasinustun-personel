@@ -17,6 +17,9 @@ Bu klasör, kişisel CV sitemi Claude Code ile oluşturmak için hazırlandı.
 - `assets/cv/` — indirilebilir CV PDF'leri
 - `assets/img/` — profil fotoğrafı ve paylaşım görseli
 - `scripts/paketle.ps1` — yayınlanacak dosyaları `_yayin/` klasörüne toplar
+- `content/cv/Yasin_Ustun_CV_EN.html` — İngilizce CV'nin kaynağı (telefonsuz).
+  Düzenledikten sonra `powershell -ExecutionPolicy Bypass -File scripts\cv-pdf.ps1`
+  ile `assets/cv/Yasin_Ustun_CV_EN.pdf` yeniden üretilir.
 
 ## Yayına alma (FileZilla / FTP)
 

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+  İngilizce CV kaynağı (yayınlanmaz). PDF'i yeniden üretmek için:
+    powershell -ExecutionPolicy Bypass -File scripts\cv-pdf.ps1
+  Çıktı: assets/cv/Yasin_Ustun_CV_EN.pdf
+  Not: Telefon numarası bilerek yok (site herkese açık).
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Yasin Üstün — CV</title>
+<meta name="author" content="Yasin Üstün">
+<style>
+  @page { size: A4; margin: 13mm 15mm 13mm 15mm; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0;
+    font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.22;
+    color: #000;
+  }
+  a { color: #0563c1; text-decoration: underline; }
+  h1 { margin: 0; font-size: 22pt; line-height: 1.1; color: #1f3a5f; }
+  .role { margin: 1pt 0 0; font-size: 13pt; font-weight: 700; }
+  .contact { margin: 4pt 0 0; font-size: 10pt; }
+  .contact .sep { margin: 0 3pt; }
+  h2 {
+    margin: 10pt 0 4pt;
+    padding-bottom: 1.5pt;
+    border-bottom: 1.3pt solid #1f3a5f;
+    font-size: 12pt;
+    text-transform: uppercase;
+    color: #1f3a5f;
+  }
+  p { margin: 0; }
+  .row { display: flex; justify-content: space-between; gap: 10pt; }
+  .row .date { white-space: nowrap; }
+  .skills { margin: 0; padding: 0; list-style: none; }
+  .skills li { margin: 0 0 1pt; }
+  .job { margin: 0 0 6pt; break-inside: avoid; }
+  .job-head .title { font-weight: 700; }
+  .job-head .title span { font-weight: 400; }
+  ul.points { margin: 1pt 0 0; padding-left: 14pt; }
+  ul.points li { margin: 0 0 1pt; }
+  ul.plain { margin: 0; padding-left: 14pt; }
+  ul.plain li { margin: 0 0 1pt; }
+  .section { break-inside: avoid; }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Yasin Üstün</h1>
+    <p class="role">Senior .NET Developer</p>
+    <p class="contact">
+      Maltepe, Istanbul<span class="sep">|</span><a href="mailto:bm.yasinustun@gmail.com">bm.yasinustun@gmail.com</a><span class="sep">|</span><a href="https://www.linkedin.com/in/yasin-%C3%BCst%C3%BCn-aa80669b/">linkedin.com/in/yasin-üstün-aa80669b</a><span class="sep">|</span><a href="https://yasinustun.ustunsoft.com/en/">yasinustun.ustunsoft.com</a>
+    </p>
+  </header>
+
+  <section class="section">
+    <h2>Summary</h2>
+    <p class="summary">Senior .NET Developer with 9+ years of experience in the finance sector. Specialized in migrating legacy applications to modern .NET, REST/SOAP service integrations (KKB, TKKB, GİB) and payment system integrations (iyzico, PayPal) in banking (Ziraat Katılım, Türkiye Finans) and capital markets (OYAK Yatırım) projects. Core technologies: C#, ASP.NET Core, Blazor, MS SQL, Redis, RabbitMQ, Azure DevOps CI/CD, Kubernetes.</p>
+  </section>
+
+  <section class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li><b>Languages &amp; Frameworks:</b> C#, .NET 8+, .NET Core, .NET Framework 4.8, ASP.NET Core Web API, ASP.NET MVC, ASP.NET Web Forms, Razor Pages, Blazor, VB.NET, Windows Services</li>
+      <li><b>UI:</b> DevExpress Blazor (v25.1), DevExpress WinForms, HTML, CSS, JavaScript, Bootstrap</li>
+      <li><b>Architecture &amp; Methods:</b> RESTful API, SOAP, Microservices, Design Patterns, SOLID, Legacy Modernization, Scrum, SDLC</li>
+      <li><b>Data:</b> MS SQL Server, T-SQL, Stored Procedure Optimization, Entity Framework, ADO.NET, NPoco, Redis, Elasticsearch</li>
+      <li><b>Messaging &amp; Automation:</b> RabbitMQ, n8n</li>
+      <li><b>Integrations:</b> iyzico, PayPal, KKB (Credit Bureau of Türkiye), TKKB, GİB e-Invoice (UBL), cargo and SMS services</li>
+      <li><b>DevOps &amp; Tools:</b> Azure DevOps (CI/CD), Git, TFS, Kubernetes (Rancher), Helm, IIS, Jira</li>
+      <li><b>Mobile &amp; Games:</b> Flutter, Dart, Unity (C#)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Work Experience</h2>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Senior .NET Developer <span>| OYAK Yatırım Menkul Değerler A.Ş. (brokerage), Istanbul</span></div>
+        <div class="date">01/2025 – Present</div>
+      </div>
+      <ul class="points">
+        <li>Active developer on the migration of a company-wide portal used by multiple business units from .NET Framework 4.8 to DevExpress Blazor on the latest .NET.</li>
+        <li>In a modular architecture where business rules live in each team's own API, developing the REST API integrations and screens of team-owned modules according to each team's requirements.</li>
+        <li>Developing our team's ASP.NET Core Web API services and DevExpress Blazor screens end to end and integrating them into the portal.</li>
+        <li>MS SQL data modeling and query development; improving response times with Redis caching; scheduled jobs and business rule automation with n8n.</li>
+        <li>Build and deployment with Azure DevOps CI/CD; deployment and troubleshooting on Kubernetes (Rancher) and Helm-based environments; sprint tracking in Jira.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Senior Software Developer <span>| Porte (ETTS), Istanbul</span></div>
+        <div class="date">04/2023 – 01/2025</div>
+      </div>
+      <ul class="points">
+        <li>Developed the backend of an e-commerce project and REST services for the mobile/web front end with .NET Core Web API.</li>
+        <li>Migrated a VB.NET logistics application end to end, including database and screen design, to .NET Core Razor Pages.</li>
+        <li>Developed REST services with .NET Core Web API and NPoco for companies shipping from Türkiye to the US, and managed the integration processes.</li>
+        <li>Implemented iyzico and PayPal payment integrations, a domestic cargo SOAP integration, and screen/report performance optimizations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Senior Software Developer <span>| Kafein Teknoloji (Ziraat Katılım Bank project), Istanbul</span></div>
+        <div class="date">10/2020 – 04/2023</div>
+      </div>
+      <ul class="points">
+        <li>Developed on the .NET-based Pusula (Intertech) banking application in Ziraat Katılım Bank's Customer-CRM team.</li>
+        <li>Migrated ASP.NET Web Forms screens to ASP.NET MVC and built new screens with .NET Core.</li>
+        <li>Developed the screens and REST service integration that bring customer complaints filed with TKKB (Participation Banks Association of Türkiye) into the bank's system.</li>
+        <li>Developed SOAP services; optimized the stored procedures behind reports and screens.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Software Developer <span>| Türkiye Finans Participation Bank, Istanbul</span></div>
+        <div class="date">09/2019 – 10/2020</div>
+      </div>
+      <ul class="points">
+        <li>Developed the DevExpress WinForms loan application in the Corporate Loans disbursement team, following Scrum and SDLC processes.</li>
+        <li>Took part in migrating the VB Forms application used in branches to .NET WinForms.</li>
+        <li>Developed the REST service integration for reporting loans to KKB (Credit Bureau of Türkiye) and SOAP services.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Software Developer <span>| eLogo, Istanbul</span></div>
+        <div class="date">02/2019 – 07/2019</div>
+      </div>
+      <ul class="points">
+        <li>Developed SOAP web services that send e-invoice taxpayers' invoices to the Revenue Administration (GİB) and perform UBL validation.</li>
+        <li>Developed an ASP.NET MVC portal where customers track invoice statuses and take action.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Software Developer <span>| Logo Software, Istanbul</span></div>
+        <div class="date">11/2016 – 02/2019</div>
+      </div>
+      <ul class="points">
+        <li>Worked with Scrum in the infrastructure team of an ASP.NET and ASP.NET MVC based CRM application; optimized screens and reports.</li>
+        <li>Developed the customer SMS sending integration following SOLID principles and design patterns.</li>
+        <li>Integrated the NPoco micro ORM into an ADO.NET-based MVC project and onboarded the team; made an IE-dependent application cross-browser compatible.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-head row">
+        <div class="title">Freelance Software Developer <span>| T1 Yazılım, Istanbul</span></div>
+        <div class="date">01/2015 – 10/2016</div>
+      </div>
+      <ul class="points">
+        <li>Developed an iyzico payment integration, an SMS sending service and a customer request form for a PHP and MySQL CRM application.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+    <ul class="plain">
+      <li>Mobile apps built with Flutter for store release (notifications, ad integration, in-app purchases).</li>
+      <li>Game development with Unity and C#.</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <p class="row"><span><b>B.Sc. Computer Engineering</b> | Istanbul University</span><span class="date">2013 – 2017</span></p>
+  </section>
+
+  <section class="section">
+    <h2>Certificates</h2>
+    <ul class="plain">
+      <li>Microservices Training | Udemy | 2023</li>
+      <li>.NET Core Training | Udemy | 2022</li>
+      <li>Design Patterns Training | BT Akademi | 2018</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Languages</h2>
+    <p>Turkish: Native<span class="sep"> | </span>English: Upper-intermediate (B2)</p>
+  </section>
+
+  <section class="section">
+    <h2>Additional Information</h2>
+    <p>Military service: Exempt<span class="sep"> | </span>Driver's license: Class B</p>
+  </section>
+</body>
+</html>
